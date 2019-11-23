@@ -3,16 +3,6 @@ from PyQt5.QtCore import pyqtSlot
 from motionToolUI import Ui_MainWindow
 import sys
 
-# headArray = ["headPitchBox", "headYawBox"]
-# shoulderRightArray = ["elbowPitchRightBox", "shoulderRollRightBox", "shoulderPitchRightBox"]
-# shoulderLeftArray = ["elbowPitchLeftBox", "shoulderRollLeftBox", "shoulderPitchLeftBox"]
-# hipRightArray = ["hipPitchRightBox", "hipRollRightBox", "hipYawRightBox"]
-# hipLeftArray = ["hipPitchLeftBox", "hipRollLeftBox", "hipYawLeftBox"]
-# kneeRight = ["kneePitchRightBox"]
-# kneeLeft = ["kneePitchLeftBox"]
-# ankleLeft = ["ankleRollLeftBox", "anklePitchLeftBox"]
-# ankleRight = ["ankleRollRightBox", "anklePitchRightBox"]
-
 motorNamesArray = ["headPitchBox", "headYawBox",
 "elbowPitchRightBox", "shoulderRollRightBox", "shoulderPitchRightBox",
 "elbowPitchLeftBox", "shoulderRollLeftBox", "shoulderPitchLeftBox", 
