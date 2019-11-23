@@ -13,7 +13,7 @@ import sys
 # ankleLeft = ["ankleRollLeftBox", "anklePitchLeftBox"]
 # ankleRight = ["ankleRollRightBox", "anklePitchRightBox"]
 
-allArray = ["headPitchBox", "headYawBox",
+motorNamesArray = ["headPitchBox", "headYawBox",
 "elbowPitchRightBox", "shoulderRollRightBox", "shoulderPitchRightBox",
 "elbowPitchLeftBox", "shoulderRollLeftBox", "shoulderPitchLeftBox", 
 "hipPitchRightBox", "hipRollRightBox", "hipYawRightBox", "hipPitchLeftBox", 
@@ -53,8 +53,7 @@ class motionToolWindow(QtWidgets.QMainWindow):
             print(nameOfArray)
             self.headPitchBox = self.findChild(QtWidgets.QDoubleSpinBox, nameOfArray)
             self.headPitchBox.setValue(0.0)
-
-        
+            
         _set()
 
     def setButtonClicked(self):
