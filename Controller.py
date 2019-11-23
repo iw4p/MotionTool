@@ -23,6 +23,10 @@ motorNamesArray = ["headPitchBox", "headYawBox",
 "ankleRollLeftBox", "anklePitchLeftBox", 
 "ankleRollRightBox", "anklePitchRightBox"]
 
+
+oldMotorValues = []
+
+
 class motionToolWindow(QtWidgets.QMainWindow):
     def __init__(self):
         super(motionToolWindow, self).__init__()
@@ -44,19 +48,24 @@ class motionToolWindow(QtWidgets.QMainWindow):
 
 
     def clearButtonClicked(self):
-
-        print('clear Button Clicked')
         global motorNamesArray
-        for motorNamesArray in motorNamesArray:
+        print('clear Button Clicked')
+        for x in motorNamesArray:
             # print(motorNamesArray)
-            self.headPitchBox = self.findChild(QtWidgets.QDoubleSpinBox, motorNamesArray)
-            self.headPitchBox.setValue(0.0)
-            
+            self.nameOfMotors = self.findChild(QtWidgets.QDoubleSpinBox, x)
+            self.nameOfMotors.setValue(0.0)
+            print(self.nameOfMotors.value())
+
         _set()
 
     def setButtonClicked(self):
-        print('set Button Clicked')
-
+        for nameOfObject in motorNamesArray:
+            self.nameOfMotors = self.findChild(QtWidgets.QDoubleSpinBox, nameOfObject)
+            currentValue = self.nameOfMotors.value()
+            self.nameOfMotors.setValue(currentValue)
+            print("set " + str(currentValue) + " for " + str(nameOfObject))
+            print('set Button Clicked')
+        
 
     def pos0ButtonClicked(self):
         print('pos0 Button Clicked')

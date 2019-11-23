@@ -40,7 +40,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="headPitchBox"/>
+        <widget class="QDoubleSpinBox" name="headPitchBox">
+         <property name="decimals">
+          <number>3</number>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -63,7 +67,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="headYawBox"/>
+        <widget class="QDoubleSpinBox" name="headYawBox">
+         <property name="decimals">
+          <number>3</number>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -92,7 +100,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="kneePitchRightBox"/>
+        <widget class="QDoubleSpinBox" name="kneePitchRightBox">
+         <property name="decimals">
+          <number>3</number>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -112,7 +124,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="kneePitchLeftBox"/>
+        <widget class="QDoubleSpinBox" name="kneePitchLeftBox">
+         <property name="decimals">
+          <number>3</number>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -180,7 +196,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="ankleRollRightBox"/>
+        <widget class="QDoubleSpinBox" name="ankleRollRightBox">
+         <property name="decimals">
+          <number>3</number>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -197,7 +217,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="anklePitchRightBox"/>
+        <widget class="QDoubleSpinBox" name="anklePitchRightBox">
+         <property name="decimals">
+          <number>3</number>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -217,7 +241,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="anklePitchLeftBox"/>
+        <widget class="QDoubleSpinBox" name="anklePitchLeftBox">
+         <property name="decimals">
+          <number>3</number>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -234,7 +262,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="ankleRollLeftBox"/>
+        <widget class="QDoubleSpinBox" name="ankleRollLeftBox">
+         <property name="decimals">
+          <number>3</number>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -263,7 +295,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="hipPitchRightBox"/>
+        <widget class="QDoubleSpinBox" name="hipPitchRightBox">
+         <property name="decimals">
+          <number>3</number>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -280,7 +316,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="hipRollRightBox"/>
+        <widget class="QDoubleSpinBox" name="hipRollRightBox">
+         <property name="decimals">
+          <number>3</number>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -297,7 +337,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="hipYawRightBox"/>
+        <widget class="QDoubleSpinBox" name="hipYawRightBox">
+         <property name="decimals">
+          <number>3</number>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -317,7 +361,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="hipYawLeftBox"/>
+        <widget class="QDoubleSpinBox" name="hipYawLeftBox">
+         <property name="decimals">
+          <number>3</number>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -334,7 +382,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="hipRollLeftBox"/>
+        <widget class="QDoubleSpinBox" name="hipRollLeftBox">
+         <property name="decimals">
+          <number>3</number>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -351,7 +403,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="hipPitchLeftBox"/>
+        <widget class="QDoubleSpinBox" name="hipPitchLeftBox">
+         <property name="decimals">
+          <number>3</number>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -380,7 +436,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="elbowPitchRightBox"/>
+        <widget class="QDoubleSpinBox" name="elbowPitchRightBox">
+         <property name="decimals">
+          <number>3</number>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -397,7 +457,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="shoulderRollRightBox"/>
+        <widget class="QDoubleSpinBox" name="shoulderRollRightBox">
+         <property name="decimals">
+          <number>3</number>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -414,7 +478,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="shoulderPitchRightBox"/>
+        <widget class="QDoubleSpinBox" name="shoulderPitchRightBox">
+         <property name="decimals">
+          <number>3</number>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -434,7 +502,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="shoulderPitchLeftBox"/>
+        <widget class="QDoubleSpinBox" name="shoulderPitchLeftBox">
+         <property name="decimals">
+          <number>3</number>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -451,7 +523,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="shoulderRollLeftBox"/>
+        <widget class="QDoubleSpinBox" name="shoulderRollLeftBox">
+         <property name="decimals">
+          <number>3</number>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -468,7 +544,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="elbowPitchLeftBox"/>
+        <widget class="QDoubleSpinBox" name="elbowPitchLeftBox">
+         <property name="decimals">
+          <number>3</number>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
