@@ -56,7 +56,6 @@ class motionToolWindow(QtWidgets.QMainWindow):
             self.nameOfMotors.setValue(0.0)
             print(self.nameOfMotors.value())
 
-        _set()
 
     def setButtonClicked(self):
         for nameOfObject in motorNamesArray:
@@ -65,6 +64,8 @@ class motionToolWindow(QtWidgets.QMainWindow):
             self.nameOfMotors.setValue(currentValue)
             print("set " + str(currentValue) + " for " + str(nameOfObject))
             print('set Button Clicked')
+        
+        _set()
         
 
     def pos0ButtonClicked(self):
