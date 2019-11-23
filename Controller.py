@@ -45,13 +45,11 @@ class motionToolWindow(QtWidgets.QMainWindow):
 
     def clearButtonClicked(self):
 
-        spinboxArray = ["headYawBox","headPitchBox"]
-
         print('clear Button Clicked')
-        global allArray
-        for nameOfArray in allArray:
-            print(nameOfArray)
-            self.headPitchBox = self.findChild(QtWidgets.QDoubleSpinBox, nameOfArray)
+        global motorNamesArray
+        for motorNamesArray in motorNamesArray:
+            # print(motorNamesArray)
+            self.headPitchBox = self.findChild(QtWidgets.QDoubleSpinBox, motorNamesArray)
             self.headPitchBox.setValue(0.0)
             
         _set()
