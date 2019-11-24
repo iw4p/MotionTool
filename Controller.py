@@ -1,6 +1,6 @@
 from PyQt5 import QtWidgets, uic
 from PyQt5.QtCore import pyqtSlot
-from motionToolUI import Ui_MainWindow
+from motionViewController import Ui_MainWindow
 import sys
 
 motorNamesArray = ["headPitchBox", "headYawBox",
@@ -32,7 +32,6 @@ class motionToolWindow(QtWidgets.QMainWindow):
         
         self.pos0Button = self.findChild(QtWidgets.QPushButton, 'pos0Button')
         self.pos0Button.clicked.connect(self.pos0ButtonClicked) 
-
 
         self.show()
 
